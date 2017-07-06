@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+/* ========== Obecne direktivy ========== */
+* {margin: 0; padding: 0;}
+html {height: 100%; font-size: 62.5%;}
+body {height: 100%; font: 1.2em Verdana, Arial, Helvetica, sans-serif; text-align: center;
+padding-bottom: 60px;}
+
+
+/* ========== Layout ========== */
+#obal {
+   width: 80%;
+   max-width: 900px;
+   min-width: 500px;
+   margin: 50px auto 0 auto;
+   text-align: left;
+   border: 1px solid green;
+   background: url('pozadi.gif') repeat-y 25% 0;
+   }
+
+#hlavicka {
+   padding: 10px;
+   border-bottom: 1px solid green;
+   background: #F0FBDF;
+   }
+
+#sloupec1 {
+   float: right;
+   width: 75%;
+   }
+
+#sloupec2 {
+   float: left;
+   width: 24%;
+   text-align: center;
+   }
+
+#sloupec1-in, #sloupec2-in {
+   margin: 0.8em 1.2em;
+   }
+
+.cleaner {
+   clear: both;
+   height: 0;
+   font-size: 0;
+   visibility: hidden;
+   }
+
+#paticka {
+   padding: 10px;
+   border-top: 1px solid green;
+   background: #F0FBDF;
+   }
